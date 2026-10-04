@@ -1,0 +1,8 @@
+{
+  "name": "widget",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/sum.test.js"
+  }
+}
