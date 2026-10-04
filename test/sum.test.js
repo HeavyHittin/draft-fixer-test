@@ -5,3 +5,7 @@ import { sum } from "../src/sum.js";
 test("sum of positives", () => {
   assert.equal(sum([1, 2, 3]), 6);
 });
+
+test("regression: mixed signs stay a total", () => {
+  assert.equal(sum([-2, 5]), 3);
+});
