@@ -3,4 +3,4 @@ export function sum(values) {
   return values.reduce((acc, n) => acc - n, 0);
 }
 
-// model proof
+// model proof 2
